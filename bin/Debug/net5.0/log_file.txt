@@ -1,0 +1,54 @@
+2021-03-01 15:12:58.8238|INFO|Media_Library_2.Program|Program started
+2021-03-01 15:12:58.8681|INFO|Media_Library_2.FileScrubber|File scrub started
+2021-03-01 15:12:58.8681|ERROR|Media_Library_2.FileScrubber|Could not find file 'E:\.Net Programming\Media Library 2\movies.csv'.
+2021-03-01 15:12:58.8785|INFO|Media_Library_2.Program|
+2021-03-01 15:12:58.8785|INFO|Media_Library_2.Program|Program ended
+2021-03-01 15:24:53.2704|INFO|Media_Library_2.Program|Program started
+2021-03-01 15:24:53.3051|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-01 15:24:53.3051|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-01 15:24:53.3051|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-01 15:24:53.3204|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-01 15:24:53.3204|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-01 15:25:19.0088|INFO|Media_Library_2.Program|Program started
+2021-03-01 15:25:19.0429|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-01 15:25:19.0429|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-01 15:25:19.0525|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-01 15:25:19.0525|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-01 15:25:19.0525|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-01 15:26:20.7532|INFO|Media_Library_2.Program|movie added!
+2021-03-01 15:26:20.7532|INFO|Media_Library_2.Program|1,Greatest,Comedy | Romance,Jeff Grissom,02:21:23added to csv!
+2021-03-05 16:44:40.6747|INFO|Media_Library_2.Program|Program started
+2021-03-05 16:44:40.7082|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-05 16:44:40.7082|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-05 16:44:40.7082|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-05 16:44:40.7222|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-05 16:44:40.7222|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-05 16:47:28.8952|INFO|Media_Library_2.Program|Program started
+2021-03-05 16:47:28.9279|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-05 16:47:28.9279|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-05 16:47:28.9279|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-05 16:47:28.9491|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-05 16:47:28.9586|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-05 16:47:46.0943|INFO|Media_Library_2.Program|Program ended
+2021-03-05 16:49:12.3376|INFO|Media_Library_2.Program|Program started
+2021-03-05 16:49:12.3714|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-05 16:49:12.3714|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-05 16:49:12.3810|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-05 16:49:12.3810|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-05 16:49:12.3994|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-05 16:51:13.7389|INFO|Media_Library_2.Program|Program started
+2021-03-05 16:51:13.7731|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-05 16:51:13.7731|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-05 16:51:13.7731|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-05 16:51:13.7918|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-05 16:51:13.8021|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-05 16:52:49.8333|INFO|Media_Library_2.Program|movie added!
+2021-03-05 16:52:49.8333|INFO|Media_Library_2.Program|2,Best Movie Ever (2020),Drama,Jeff Grissom,1:25:00added to csv!
+2021-03-05 17:09:07.4411|INFO|Media_Library_2.Program|Program started
+2021-03-05 17:09:07.4752|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-05 17:09:07.4752|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-05 17:09:07.4752|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-05 17:09:07.4908|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-05 17:09:07.4908|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-05 17:10:15.9231|INFO|Media_Library_2.Program|movie added!
+2021-03-05 17:10:15.9293|INFO|Media_Library_2.Program|3,Best Movie Ever 2 (2020),done,Jeff Grissom,1:25:00added to csv!
