@@ -55,17 +55,23 @@ namespace Media_Library_2
             logger.Info(ScrubbedFile);
             mf = new MovieFile(ScrubbedFile);
             int choice = -1;
-            while(choice != 0 ) {
+            while(choice != 0 ) 
+            {
                 Console.WriteLine("[1]Add movie");
                 Console.WriteLine("[2]Display All movies");
+                Console.WriteLine("[3]Search for a movie");
                 Console.WriteLine("[0]Quit");
                 choice = Int16.Parse(Console.ReadLine());
-                switch (choice) {
+                switch (choice) 
+                {
                     case 2 :
                         mf.DisplayMovies();
                         break;
                     case 1 : 
                         AddMovie();
+                        break;
+                    case 3 :
+                        SearchMovies();
                         break;
                     default : break;
                 }
@@ -98,7 +104,8 @@ namespace Media_Library_2
             Console.WriteLine("Enter run time xx:xx:xx");
             string runTime = Console.ReadLine();
             //make movie obj
-            Movie m = new Movie {
+            Movie m = new Movie 
+            {
                 mediaId =  newId,
                 title = title,
                 director = director,
@@ -121,20 +128,35 @@ namespace Media_Library_2
             sw.WriteLine(fileLine);
             sw.Close();
            }
-           
-            
-        
-        private static bool FindDupeMovieByTitle(string title) {
+        private static bool FindDupeMovieByTitle(string title)
+        {
             //check every Movie.title for passed in title
             //compare titles with ToLower()
-            if(mf.MovieList.ConvertAll(m => m.title.ToLower()).Contains(title.ToLower())) {
+            if(mf.MovieList.ConvertAll(m => m.title.ToLower()).Contains(title.ToLower())) 
+            {
                 logger.Info($"found duplicate title {title}");
                 return true;
             }
             return false;
         }
-      
-        
-    }
+        private static void SearchMovies() 
+        {
+            Console.WriteLine("Enter a title to search for:");
+            string title = Console.ReadLine();
+            if(title != null && title != "") 
+            {
+                //make a query
+                List<Movie> result = mf.MovieList.Where(m => m.title.Contains(title)).ToList<Movie>();
+                //loop through results and display returned movies
+                foreach (Movie m in result)
+                {
+                    Console.WriteLine(m.Display());
+                }
+                Console.WriteLine($"found {result.Count()} movies with title containing \"{title}\"");
+
+            }         
+        }
+    }     
 }
+
 

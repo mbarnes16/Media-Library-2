@@ -52,3 +52,28 @@
 2021-03-05 17:09:07.4908|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
 2021-03-05 17:10:15.9231|INFO|Media_Library_2.Program|movie added!
 2021-03-05 17:10:15.9293|INFO|Media_Library_2.Program|3,Best Movie Ever 2 (2020),done,Jeff Grissom,1:25:00added to csv!
+2021-03-22 13:08:51.5802|INFO|Media_Library_2.Program|Program started
+2021-03-22 13:08:51.6219|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-22 13:08:51.6264|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-22 13:08:51.6264|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-22 13:08:51.6264|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-22 13:08:51.6509|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-22 13:09:25.8408|INFO|Media_Library_2.Program|Program started
+2021-03-22 13:09:25.8780|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-22 13:09:25.8780|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-22 13:09:25.8780|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-22 13:09:25.8935|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-22 13:09:25.8935|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-23 11:23:57.7123|INFO|Media_Library_2.Program|Program started
+2021-03-23 11:23:57.7458|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-23 11:23:57.7502|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-23 11:23:57.7502|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-23 11:23:57.7502|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-23 11:23:57.7730|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
+2021-03-23 11:46:45.1805|INFO|Media_Library_2.Program|Program ended
+2021-03-23 11:47:09.5468|INFO|Media_Library_2.Program|Program started
+2021-03-23 11:47:09.5822|INFO|Media_Library_2.FileScrubber|File already scrubbed
+2021-03-23 11:47:09.5822|INFO|Media_Library_2.Program|movies.scrubbed.csv
+2021-03-23 11:47:09.5929|INFO|Media_Library_2.MovieFile|creating movieList
+2021-03-23 11:47:09.5929|INFO|Media_Library_2.MovieFile|parsing file movies.scrubbed.csv.
+2021-03-23 11:47:09.6072|INFO|Media_Library_2.MovieFile|scrubbed file parsed into List<Movie>
